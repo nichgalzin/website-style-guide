@@ -1,0 +1,151 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;    
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+/* Reusables */
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}
+
+.section-box {
+    border: 3px solid hsl(200, 95%, 14%);
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.more-info {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.break {
+    margin-bottom: 1.5rem;
+}
+
+.indentation {
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+/* Header */
+
+header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Colour sections and colour boxes */
+
+.colour-box {
+    height: 8rem;
+    width: 15rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+
+
+.colours-container h2 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+
+.colour-box h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.colour-box p {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.sky-blue {
+    background-color: hsl(199, 64%, 73%);
+}
+
+.navy-blue {
+    background-color: hsl(200, 95%, 14%);
+}
+
+.burnt-yellow {
+    background-color: hsl(43, 100%, 51%);
+}
+
+.pumpkin-orange {
+    background-color:hsl(32, 100%, 49%);
+}
+
+.white-font {
+    color: antiquewhite;
+}
+
+/* Font box and font cards */
+
+.font-box p {
+    padding: .75em;
+}
+
+.font-box {
+    width: 15rem;
+    margin-top: 2rem;
+    line-height: 1.75rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cabin {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.abril {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Text Styles */ 
+
+.text-box {
+    padding: 1rem;
+}
+
+.text-box ul {
+    list-style: inside;
+    padding: 1rem 0 1rem 2.5rem;
+}
+
